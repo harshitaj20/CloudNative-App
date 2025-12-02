@@ -1,0 +1,14 @@
+# Local Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files (NEVER COMMIT THESE)
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+
+# Terraform variables (private/secrets)
+terraform.tfvars
+*.tfvars
+*.tfv*
